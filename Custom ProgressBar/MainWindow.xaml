@@ -3,54 +3,61 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Custom_ProgressBar"
         mc:Ignorable="d"
         Title="MainWindow" Height="379" Width="558">
     <Window.Resources>
 
+        <SolidColorBrush x:Key="GeneralBackground" Color="#19162B" />
+        <SolidColorBrush x:Key="TrackBackground" Color="#3A437D" />
+        <SolidColorBrush x:Key="TrackShadow" Color="#3298C1" />
+        <Color x:Key="TrackShadowEffect">Aqua</Color>
+        <SolidColorBrush x:Key="TrackDelimiter" Color="#2E265E" />
+
+
+        <SolidColorBrush x:Key="IndicatorBackground" Color="#B8E0FE" />
+        <Color x:Key="IndicatorOuterShadow">Aqua</Color>
+        <SolidColorBrush x:Key="IndicatorInnerBorder" Color="Aqua" />
+        <Color x:Key="IndicatorInnerShadow">Aqua</Color>
+        <SolidColorBrush x:Key="IndicatorMarginFill" Color="#B8E0FE" />
+
         <Style x:Key="ProgressBarStyle" TargetType="ProgressBar">
-
             <Setter Property="Template">
-
                 <Setter.Value>
                     <ControlTemplate TargetType="ProgressBar">
-                        <Grid x:Name="PART_Track" Background="#3A437D" Opacity="0.6">
+                        <Grid x:Name="PART_Track" Background="{StaticResource TrackBackground}" Opacity="0.6">
 
-                            <Border x:Name="Shadow" Background="Transparent" BorderBrush="#3298C1" BorderThickness="6" CornerRadius="4" ClipToBounds="True" >
+                            <Border x:Name="Shadow" Background="Transparent" BorderBrush="{StaticResource TrackShadow}" BorderThickness="6" CornerRadius="4" ClipToBounds="True" >
                                 <Border.Effect>
-                                    <DropShadowEffect ShadowDepth="0" BlurRadius="30" Color="Aqua" />
+                                    <DropShadowEffect ShadowDepth="0" BlurRadius="30" Color="{StaticResource TrackShadowEffect}" />
                                 </Border.Effect>
                             </Border>
-                            <Border x:Name="OuterBorderInBackgroundColor" BorderBrush="#19162B" BorderThickness="3" CornerRadius="5" Margin="-2"/>
-                            <Border BorderBrush="#2E265E" BorderThickness="3" CornerRadius="3" Margin="3"/>
+                            <Border x:Name="OuterBorderInBackgroundColor" BorderBrush="{StaticResource GeneralBackground}" BorderThickness="3" CornerRadius="5" Margin="-2"/>
+                            <Border BorderBrush="{StaticResource TrackDelimiter}" BorderThickness="3" CornerRadius="3" Margin="3"/>
 
                             <Grid x:Name="PART_Indicator" HorizontalAlignment="Left" Background="Transparent" Margin="7" >
-                                <Border HorizontalAlignment="Left" Background="#B8E0FE" CornerRadius="4" Width="{Binding ElementName=PART_Indicator, Path=ActualWidth}">
+                                <Border HorizontalAlignment="Left" Background="{StaticResource IndicatorBackground}" CornerRadius="4" Width="{Binding ElementName=PART_Indicator, Path=ActualWidth}">
                                     <Border.Effect>
-                                        <DropShadowEffect ShadowDepth="0" BlurRadius="20" Color="Aqua" />
+                                        <DropShadowEffect ShadowDepth="0" BlurRadius="20" Color="{StaticResource IndicatorOuterShadow}" />
                                     </Border.Effect>
                                 </Border>
-
-                                <Border  Background="Transparent" BorderBrush="Aqua" BorderThickness="6" CornerRadius="4" ClipToBounds="True" >
+                                <Border  Background="Transparent" BorderBrush="{StaticResource IndicatorInnerBorder}" BorderThickness="6" CornerRadius="4" ClipToBounds="True" >
                                     <Border.Effect>
-                                        <DropShadowEffect ShadowDepth="0" BlurRadius="30" Color="Aqua" />
+                                        <DropShadowEffect ShadowDepth="0" BlurRadius="30" Color="{StaticResource IndicatorInnerShadow}" />
                                     </Border.Effect>
                                 </Border>
-                                <Border BorderBrush="#B8E0FE" BorderThickness="6" CornerRadius="2" Margin="0" Opacity="0.5"/>                              
-                            </Grid>                          
-
+                                <Border BorderBrush="{StaticResource IndicatorMarginFill}" BorderThickness="6" CornerRadius="2" Margin="0" Opacity="0.5"/>
+                            </Grid>
                         </Grid>
-                        
                     </ControlTemplate>
                 </Setter.Value>
-
             </Setter>
-
         </Style>
 
     </Window.Resources>
 
-    <Grid Background="#19162B">
+    <Grid Background="{StaticResource GeneralBackground}">
         <ProgressBar x:Name="PBar"  Margin="48,125,45,144" Style="{StaticResource ProgressBarStyle}" Value="30"/>
     </Grid>
 </Window>
+
+
