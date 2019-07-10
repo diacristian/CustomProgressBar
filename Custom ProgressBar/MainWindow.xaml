@@ -13,7 +13,6 @@
         <Color x:Key="TrackShadowEffect">Aqua</Color>
         <SolidColorBrush x:Key="TrackDelimiter" Color="#2E265E" />
 
-
         <SolidColorBrush x:Key="IndicatorBackground" Color="#B8E0FE" />
         <Color x:Key="IndicatorOuterShadow">Aqua</Color>
         <SolidColorBrush x:Key="IndicatorInnerBorder" Color="Aqua" />
@@ -24,7 +23,7 @@
             <Setter Property="Background" Value="{StaticResource GeneralBackground}"/>
             <Setter Property="Template">
                 <Setter.Value>
-                    <ControlTemplate TargetType="ProgressBar">
+                    <ControlTemplate TargetType="ProgressBar">                        
                         <Grid Background="{StaticResource GeneralBackground}">
                             <Grid x:Name="PART_Track" Background="{StaticResource TrackBackground}" Opacity="0.6">
                                 <Border x:Name="Shadow" Background="Transparent" BorderBrush="{StaticResource TrackShadow}" BorderThickness="6" CornerRadius="4" ClipToBounds="True" >
@@ -47,7 +46,7 @@
                                         </Border.Effect>
                                     </Border>
                                     <Border BorderBrush="{StaticResource IndicatorMarginFill}" BorderThickness="6" CornerRadius="2" Margin="0" Opacity="0.5"/>
-                                </Grid>
+                                </Grid>                                    
                             </Grid>
                         </Grid>
                     </ControlTemplate>
@@ -57,8 +56,10 @@
 
     </Window.Resources>
 
-    <Grid Background="{StaticResource GeneralBackground}">
-        <ProgressBar x:Name="PBar"  Margin="48,125,45,144" Style="{StaticResource ProgressBarStyle}" Value="30"/>
+    <Grid Background="{StaticResource GeneralBackground}" >
+        <Viewbox>
+            <ProgressBar x:Name="PBar" Style="{StaticResource ProgressBarStyle}" Value="30"  Margin="48,125,45,144" Width="300" Height="60"/>
+        </Viewbox>
     </Grid>
 </Window>
 
