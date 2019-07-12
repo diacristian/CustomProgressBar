@@ -1,0 +1,28 @@
+c:\users\diacc\documents\visual studio 2015\Projects\Custom ProgressBar\Custom ProgressBar\bin\Debug\Custom ProgressBar.exe.config
+c:\users\diacc\documents\visual studio 2015\Projects\Custom ProgressBar\Custom ProgressBar\obj\Debug\MainWindow.g.cs
+c:\users\diacc\documents\visual studio 2015\Projects\Custom ProgressBar\Custom ProgressBar\obj\Debug\App.g.cs
+c:\users\diacc\documents\visual studio 2015\Projects\Custom ProgressBar\Custom ProgressBar\obj\Debug\Custom ProgressBar_MarkupCompile.cache
+c:\users\diacc\documents\visual studio 2015\Projects\Custom ProgressBar\Custom ProgressBar\bin\Debug\Custom ProgressBar.exe
+c:\users\diacc\documents\visual studio 2015\Projects\Custom ProgressBar\Custom ProgressBar\bin\Debug\Custom ProgressBar.pdb
+c:\users\diacc\documents\visual studio 2015\Projects\Custom ProgressBar\Custom ProgressBar\obj\Debug\MainWindow.baml
+c:\users\diacc\documents\visual studio 2015\Projects\Custom ProgressBar\Custom ProgressBar\obj\Debug\Custom ProgressBar.g.resources
+c:\users\diacc\documents\visual studio 2015\Projects\Custom ProgressBar\Custom ProgressBar\obj\Debug\Custom_ProgressBar.Properties.Resources.resources
+c:\users\diacc\documents\visual studio 2015\Projects\Custom ProgressBar\Custom ProgressBar\obj\Debug\Custom ProgressBar.csproj.GenerateResource.Cache
+c:\users\diacc\documents\visual studio 2015\Projects\Custom ProgressBar\Custom ProgressBar\obj\Debug\Custom ProgressBar.exe
+c:\users\diacc\documents\visual studio 2015\Projects\Custom ProgressBar\Custom ProgressBar\obj\Debug\Custom ProgressBar.pdb
+C:\Users\diacc\documents\visual studio 2015\Projects\Custom ProgressBar\Custom ProgressBar\obj\Debug\Custom ProgressBar.csprojResolveAssemblyReference.cache
+C:\Users\diacc\Desktop\Custom ProgressBar\Custom ProgressBar\bin\Debug\Custom ProgressBar.exe.config
+C:\Users\diacc\Desktop\Custom ProgressBar\Custom ProgressBar\obj\Debug\Custom ProgressBar.exe
+C:\Users\diacc\Desktop\Custom ProgressBar\Custom ProgressBar\obj\Debug\Custom ProgressBar.pdb
+C:\Users\diacc\Desktop\Custom ProgressBar\Custom ProgressBar\bin\Debug\Custom ProgressBar.exe
+C:\Users\diacc\Desktop\Custom ProgressBar\Custom ProgressBar\bin\Debug\Custom ProgressBar.pdb
+C:\Users\diacc\Desktop\Custom ProgressBar\Custom ProgressBar\obj\Debug\MainWindow.baml
+C:\Users\diacc\Desktop\Custom ProgressBar\Custom ProgressBar\obj\Debug\MainWindow.g.cs
+C:\Users\diacc\Desktop\Custom ProgressBar\Custom ProgressBar\obj\Debug\App.g.cs
+C:\Users\diacc\Desktop\Custom ProgressBar\Custom ProgressBar\obj\Debug\Custom ProgressBar_MarkupCompile.cache
+C:\Users\diacc\Desktop\Custom ProgressBar\Custom ProgressBar\obj\Debug\Custom ProgressBar.g.resources
+C:\Users\diacc\Desktop\Custom ProgressBar\Custom ProgressBar\obj\Debug\Custom_ProgressBar.Properties.Resources.resources
+C:\Users\diacc\Desktop\Custom ProgressBar\Custom ProgressBar\obj\Debug\Custom ProgressBar.csproj.GenerateResource.Cache
+C:\Users\diacc\Desktop\Custom ProgressBar\Custom ProgressBar\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\diacc\Desktop\Custom ProgressBar\Custom ProgressBar\obj\Debug\Custom ProgressBar_MarkupCompile.lref
+C:\Users\diacc\Desktop\Custom ProgressBar\Custom ProgressBar\obj\Debug\Themes\Generic.baml
